@@ -14,9 +14,9 @@ function generaNumero(){
     return numero;
 }
 var numeroCpu = generaNumero();
-console.log(numeroCpu)
+console.log("Il numero generato dal computer è",numeroCpu)
 var somma = numeroUtente + numeroCpu;
-console.log(somma);
+console.log("La somma è",somma);
 function pariDispari(totale){
     var risultato = "";
     if (totale%2 ==0){
